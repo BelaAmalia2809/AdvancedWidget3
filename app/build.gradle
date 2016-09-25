@@ -4,6 +4,10 @@ android {
     compileSdkVersion 23
     buildToolsVersion "24.0.2"
 
+    dataBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "id.sch.smktelkom_mlg.learn.advancedwidget3"
         minSdkVersion 15
@@ -24,3 +28,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
 }
+
